@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.yearbook {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f6f8f6;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.yearbook h1 {
+    text-align: center;
+    color: #045a40;
+    font-size: 28px;
+}
+.yearbook h2 {
+    text-align: left;
+    color: #045a40;
+    font-size: 28px;
+}
+.wishes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wishes,
+.appreciations {
+    width: 48%;
+}
+
+.wishes h2,
+.appreciations h2 {
+    text-align: center;
+    color: #a1e208;
+}
+
+.wish,
+.appreciation {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    color: #333;
+}
+
+.wish:hover,
+.appreciation:hover {
+    transform: scale(1.02);
+}
+
+.signature {
+    font-style: italic;
+    color: #777;
+}
+.date {
+    font-style: italic;
+    color: #777;
+    text-align: right;
+}
+.header-image {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    display: block;
+}
